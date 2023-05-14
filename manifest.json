@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Unreal Doc Helper",
+  "version": "0.2",
+  "description": "Provides helpful insight on Unreal Documentation pages",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://docs.unrealengine.com/5.2/*"
+      ]
+    }
+  ]
+}
